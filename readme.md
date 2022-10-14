@@ -10,7 +10,7 @@ npm run start
 ```
 
 ## Configuration
-Create a `.env` file and setup process vars for `mapbox-gl` and `spotify-web-playback-sdk`
+Create a `.env` file in the project root and create the process vars for `mapbox-gl` and `spotify-web-playback-sdk`
 
 ```bash
 MAP_API_TOKEN=[your api token]
