@@ -2,33 +2,20 @@
 
 JamSesh Stencil is a frontend consumer UI of the jamsesh-gql-mid services. Built using Stencil.js
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
 ## Usage
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```bash
+npm install
+npm run install
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Configuration
+Create a `.env` file and setup process vars for `mapbox-gl` and `spotify-web-playback-sdk`
 
-Please make sure to update tests as appropriate.
+```bash
+MAP_API_TOKEN=[your api token]
+SPOTIFY_TOKEN=[your api token]
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
