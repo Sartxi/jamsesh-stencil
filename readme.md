@@ -6,7 +6,7 @@ JamSesh Stencil is a frontend consumer UI of the jamsesh-gql-mid services. Built
 
 ```bash
 npm install
-npm run install
+npm run start
 ```
 
 ## Configuration
