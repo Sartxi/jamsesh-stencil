@@ -1,0 +1,25 @@
+#MapGL {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  #map {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+  }
+
+  #MapScreen {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .members h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #999;
+    margin: 10px 0 5px;
+  }

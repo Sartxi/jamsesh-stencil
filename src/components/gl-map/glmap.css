@@ -1,0 +1,15 @@
+@import url(https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css);
+
+.glmap {
+    width: 95vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.marker {
+    display: block;
+    border: 1px solid blue;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
